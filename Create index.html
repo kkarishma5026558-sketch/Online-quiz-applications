@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz Application</title>
+</head>
+<body>
+
+    <header>
+        <h1>Online Quiz Application</h1>
+        <p>Test Your Knowledge Online</p>
+    </header>
+
+    <main>
+        <section id="welcome">
+            <h2>Welcome to the Quiz</h2>
+            <p>Answer the questions and check your knowledge.</p>
+            <button id="startBtn">Start Quiz</button>
+        </section>
+
+        <section id="quiz">
+            <h2>Quiz Questions</h2>
+
+            <p id="questionNumber">Question 1 of 5</p>
+
+            <h3 id="question">
+                1. Which language is used to create web pages?
+            </h3>
+
+            <form id="quizForm">
+                <label>
+                    <input type="radio" name="answer" value="HTML">
+                    HTML
+                </label>
+                <br>
+
+                <label>
+                    <input type="radio" name="answer" value="Python">
+                    Python
+                </label>
+                <br>
+
+                <label>
+                    <input type="radio" name="answer" value="Java">
+                    Java
+                </label>
+                <br>
+
+                <label>
+                    <input type="radio" name="answer" value="C">
+                    C
+                </label>
+                <br><br>
+
+                <button type="button" id="nextBtn">
+                    Next Question
+                </button>
+            </form>
+        </section>
+
+        <section id="result">
+            <h2>Quiz Result</h2>
+            <p id="score">Your Score: 0/5</p>
+            <p id="message">Thank you for completing the quiz!</p>
+            <button id="restartBtn">Restart Quiz</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Online Quiz Application</p>
+        <p>Designed for educational purposes</p>
+    </footer>
+
+</body>
+</html>
